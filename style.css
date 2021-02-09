@@ -1,0 +1,311 @@
+/*
+  GOTHIC ARCHIVE
+  Design by lali
+*/
+
+
+html {
+  background-color: #000;
+  color: #706961;
+  font: 12px monospace;
+  line-height: 1.4;
+}
+
+
+/*****************/
+/* Mobile Layout */
+/*****************/
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+/* Header */
+
+header { width: 200px; }
+
+.logo {
+  background-image: url('img/header.png');
+  display: block;
+  height: 332px;
+  width: 300px;
+  margin: 2rem 2rem 0rem;
+  padding-top: 0;
+}
+  .logo:hover { background-position-x: 326px; }
+
+
+/* Archive Structure */
+
+#LeftRow {
+  width: 380px;
+}
+  #LeftRow img {
+    max-width: 200px;
+    height: auto;
+    margin-left: -10px;
+  }
+  .actualversion {
+    padding-left: 1em;
+    color: #c1784a;
+  }
+
+  /* Style <ul> and <li> as Tree View */
+
+  ul {
+    list-style: none;
+    padding-left: 1em;
+  }
+
+  .tree,
+  .tree ul {
+    margin: 0 0 0 1em;
+    padding: 0;
+    list-style: none;
+    position: relative;
+  }
+    .tree ul { margin-left: 0.1em }
+    .tree:before,
+    .tree ul:before {
+      content: "";
+      display: block;
+      width: 0;
+      position: absolute;
+      top: 8px;
+      bottom: 8px;
+      left: 0;
+      border-left: 1px solid;
+    }
+      .tree li {
+        margin: 0;
+        padding: 0 1.5em;
+        position: relative;
+      }
+        .tree li:before {
+          content: "";
+          display: block;
+          width: 7px;
+          height: 0;
+          border-top: 1px solid;
+          margin-top: -4px;
+          position: absolute;
+          top: 1em;
+          left: 0;
+        }
+
+  .notree { margin: 1.5em 0em 0em; }
+
+
+/* Graphical Links */
+
+#GraphicalRow {
+  max-width: 413px;
+  margin: 30px 3px 0;
+}
+  #GraphicalRow img {
+    max-width: 413px;
+    height: auto;
+  }
+
+#GraphicalRow2 {
+  /*border: 2px solid red;*/
+  max-width: 500px;
+  width: auto;
+  height: auto;
+  margin: 30px 3px 0;
+}
+  #GraphicalRow2 img {
+    max-width: 500px;
+    height: auto;
+  }
+
+
+/**********************/
+/* Full Screen Layout */
+/**********************/
+
+/* Don't wrap layout if screen width more than 820px */
+@media only screen
+and (min-width : 820px) {
+
+  main { flex-flow: row nowrap; }
+
+  #GraphicalRow {
+    min-width: 200px;
+    max-width: 413px;
+    height: auto;
+  }
+    #GraphicalRow img {
+      width: 100%;
+      height: auto;
+    }
+
+  #GraphicalRow2 {
+    min-width: 250px;
+    max-width: 500px;
+    height: auto;
+  }
+    #GraphicalRow2 img {
+      width: 100%;
+      height: auto;
+    }
+}
+
+
+/***********************/
+/* Small Screen Layout */
+/***********************/
+
+@media only screen
+and (max-width : 550px) {
+
+  #GraphicalRow {
+    width: 400px;
+    height: auto;
+  }
+    #GraphicalRow img {
+      width: 100%;
+      height: auto;
+    }
+
+  #GraphicalRow2 {
+    width: 400px;
+    height: auto;
+  }
+    #GraphicalRow2 img {
+      width: 100%;
+      height: auto;
+    }
+}
+
+
+/* Footer */
+
+footer {
+  margin: 3em 0em;
+  text-align: center;
+}
+
+  /* Download Archive */
+  .download {
+    margin: 2em 4em 3em;
+    padding: 1em 0em 2em;
+  }
+    .download h3 {
+      letter-spacing: 0.2em;
+      font-size: 11px;
+      color: #baa898;;
+    }
+      .bang { color: #a9655c; }
+
+  .zip {
+    margin: 1em;
+    padding: 1em 0em;
+    border: 1px solid #554b43;
+  }
+    .zip:hover {
+      border: 1px solid #9d5d47;
+      background-color: #9d5d47;
+      transition: all 0.3s ease-out;
+      -webkit-transition: all 0.3s ease-out;
+      -moz-transition: all 0.3s ease-out;
+      -o-transition: all 0.3s ease-out;
+    }
+
+  .cr { font-size: 10px; }
+  .donate { margin: 3em 0 0em; }
+
+
+/* Changelog */
+
+.changelog {
+  color: #d1c1ad;
+  max-width: 450px;
+  padding: 0em 1em 1em;
+}
+  .changelog h1 {
+    font-size: inherit;
+    font-weight: normal;
+    padding: 3em 0 2em;
+    text-align: center;
+    color: #a3655a;
+  }
+    .changelog h1 strong {
+      margin-right: -8px;
+      font-weight: normal;
+      letter-spacing: 8px;
+    }
+  .changelog h3 {
+    font-size: inherit;
+    font-weight: normal;
+    padding-top: 2em;
+    color: #a3655a;
+  }
+  .changelog ul {
+    margin-left: 0;
+    padding-left: 2em;
+    text-indent: -1em;
+  }
+    .changelog li:before { content: "* "; }
+
+  .changelog p { padding-top: 1em; }
+  .note { color: #f2ad7a; text-align: justify; }
+  .ascii { letter-spacing: 1px; }
+
+
+/* UTILITY */
+
+.hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.todo { color: #a9655c; }
+
+
+/* LINKS */
+
+a:link { color: #ac876d; }
+a:visited { color: #ac876d; }
+a:active { color: #505a53; }
+a:hover { color: #e4d7cc; }
+
+a, a:link, a:active, a:visited {
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+/* Image Hover */
+
+a img {
+  opacity: 1;
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+  a:hover img { opacity: 0.6; }
+
+  /* Page content */
+
+
+article {
+  max-width: 600px;
+  margin: 0 auto;
+}    
+
+article h1 {
+  color: rgb(186, 168, 152);
+  font-size: 26px;
+  padding-top: 26px;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 2em;
+}
