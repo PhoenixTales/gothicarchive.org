@@ -68,7 +68,7 @@
   +------------------------------+  
   
   
-          [ How to Contribute ]
+          [ How to contribute ]
 	
   +-----------------------------------+
   | If you want to contribute, please |
