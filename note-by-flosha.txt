@@ -4,9 +4,9 @@ with version 0.9 I conclude my work on the Archive
 to focus on the creation of Phoenix. I want to thank 
 everyone who helped me and contributed to the Archive 
 so far. I will continue to maintain it, but if you 
-want the archive to change, please do so yourself:
+want the archive to change, please do so yourself.
 
-Thus, from now on the Archive will be on GitHub. 
+-> Thus, from now on the Archive will be on GitHub. 
 I lay it into your hands to further improve it. 
 
 Version 1.0 is intended for the day at which we can 
