@@ -37,7 +37,8 @@
      | It was created and is currently |
      | maintained by Florian/flosha    |
      | from Phoenix Tales in course of |
-     | the design of PHOENIX ('Nyx').  |
+     | the design of PHOENIX ('Nyx'):  |
+     | https://phoenixthegame.com      |
   +--+------------------------+--------+  
   | We've created it in order |  
   | to share and to preserve  |  
