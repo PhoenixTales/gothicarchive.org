@@ -18,6 +18,8 @@
                    °   `        °  
   
             [ GOTHIC ARCHIVE ]  
+	    
+	 https://gothicarchive.org
   
       GOTHIC™ (2001) (c) PiranhaBytes  
       GOTHIC ARCHIVE (c) PhoenixTales  
@@ -81,18 +83,14 @@
   
                [ Download ]  
   
-     +------------------------------+  
-     | PhoenixTales' Gothic Archive |  
-     | is hosted on GitHub at:      |  
-     | https://gothicarchive.org.   |  
-     ++----------------------------++  
+      +----------------------------+  
       | We don't only allow but we |  
       | encourage everyone to save |  
       | & spread the archive under |  
       | the following conditions:  |  
       +----------------------------+  
       | 1. NON-COMMERCIAL USE ONLY |  
-      | 2. INCLUDE THIS README!    |  
+      | 2. INCLUDE THIS README.    |  
       +----------------------------+  
   
   
