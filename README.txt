@@ -68,6 +68,17 @@
   +------------------------------+  
   
   
+          [ How to Contribute ]
+	
+  +-----------------------------------+
+  | If you want to contribute, please |
+  | write your desired change or your |
+  | contribution into the changelog - |
+  | including your name - to make it  |
+  | easier for us to review. Thanks.  |
+  +-----------------------------------+
+  
+  
                [ Download ]  
   
      +------------------------------+  
