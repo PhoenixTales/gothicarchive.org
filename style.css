@@ -103,6 +103,16 @@ and (max-width : 820px) {
     display: none;
   }
 
+  #menu-toggle:not(:checked) ~ header {
+    display: block;
+  }
+
+  #menu-toggle:checked ~ header {
+    filter: blur(10px);
+    opacity: 0.5;
+    z-index: -1;
+  }
+
   main > article {
     position: absolute;
     top: 385px;
