@@ -95,7 +95,7 @@ and (max-width : 820px) {
 /* Archive Structure */
 
 #LeftRow {
-  min-width: 380px;
+  min-width: 400px;
 }
   #LeftRow img {
     max-width: 200px;
