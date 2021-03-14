@@ -25,7 +25,10 @@ main {
 
 /* Header */
 
-header { width: 200px; }
+header { 
+  width: 200px; 
+  padding-bottom: 0.5cm;
+}
 
 .logo {
   background-image: url('img/header.png');
@@ -34,6 +37,7 @@ header { width: 200px; }
   width: 300px;
   margin: 2rem 2rem 0rem;
   padding-top: 0;
+  padding-bottom: 0.5cm;
 }
   .logo:hover { background-position-x: 326px; }
 
@@ -48,6 +52,7 @@ and (max-width : 820px) {
   .logo {
     margin: 0;
     margin-left: calc(50vw - 160px);
+    padding-bottom: 0;
   }
 
   label[for="menu-toggle"] {
