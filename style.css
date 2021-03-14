@@ -1,13 +1,14 @@
 /*
   GOTHIC ARCHIVE
-  Design by lali
+  design by flosha
 */
 
 
 html {
   background-color: #000;
   color: #706961;
-  font: 12px monospace;
+  font-size: 12px; 
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
   line-height: 1.4;
 }
 
@@ -314,22 +315,43 @@ a img {
 }
   a:hover img { opacity: 0.6; }
 
-  /* Page content */
 
+/* Page content */
 
 article {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0 auto 5em;
 }    
 
 article h1 {
   color: rgb(186, 168, 152);
-  font-size: 26px;
   padding-top: 26px;
+  text-transform: uppercase;
+}
+
+article h3 {
+  padding-top: 3em;
 }
 
 article img {
   max-width: 100%;
   height: auto;
   padding-top: 2em;
+}
+
+article ul {
+  border: solid 1px #ac876d;
+  list-style: none;
+  padding: 1.5em;
+  margin: 2em 0 2em;
+  font-size: 1em;
+}
+
+article video {
+  max-width: 100%;
+  height: auto;
+}
+
+article .edgar {
+  max-width: 92px;
 }
