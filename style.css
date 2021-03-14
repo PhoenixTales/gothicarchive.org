@@ -383,3 +383,16 @@ article video {
 article .edgar {
   max-width: 92px;
 }
+
+#orderedbylocation img {
+  max-width: 410px;
+  padding: 15px 10px;
+  height: auto;
+}
+
+#anniversary img {
+  max-width: 300px;
+  padding: 15px 10px;
+  height: auto;
+}
+
