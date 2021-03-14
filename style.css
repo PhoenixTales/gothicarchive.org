@@ -106,6 +106,7 @@ and (max-width : 820px) {
   main > article {
     position: absolute;
     top: 385px;
+    margin-top: 0;
   }
 
   #LeftRow {
