@@ -54,6 +54,14 @@ and (max-width : 820px) {
     font-weight: 700;
     border: 1px solid;
     width: 96px;
+    user-select: none;
+    margin-left: 4px;
+    cursor: pointer;
+  }
+
+  label[for="menu-toggle"]::selection {
+    background-color: transparent;
+    color: inherit;
   }
 
   label[for="menu-toggle"] > .menu-icon {
