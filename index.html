@@ -1,7 +1,7 @@
 ---
 title: PhoenixTales
 ---
-
+<article>
 <div id="GraphicalRow">
 	<a href="screenshots/orderedbytime/1998.html"><img src="img/1998.png" alt="Screenshots from 1998"></a>
 	<a href="screenshots/orderedbytime/1999-01-1999-06.html"><img src="img/early1999.png" alt="Screenshots from early 1999"></a>
@@ -50,3 +50,23 @@ title: PhoenixTales
 	<a href="promotion/presskit2001/index.htm"><img src="img/PressKit.jpg" alt="Exclusive PressKit from 2001"></a>
 	<a href="https://phoenixthegame.com"><img src="img/phoenixlink.jpg" alt="PHOENIX - A Gothic Alpha Reboot by PhoenixTales"></a>
 </div>
+</article>
+
+<style>
+	main > article {
+		flex-flow: row nowrap;
+		display: flex;
+		max-width: none;
+		margin: 0;
+	}
+
+	main > article img {
+		padding-top: 0;
+	}
+
+	@media only screen and (max-width : 550px) {
+		main > article {
+		flex-flow: row wrap;
+		}
+	}
+</style>
