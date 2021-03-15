@@ -6,12 +6,17 @@
 <link rel="icon" type="image/x-icon" href="/archive.ico" />
 
 <main>
-	<label for="menu-toggle">
-		<span class="menu-icon">&#8801;</span>
-		Menu
-	</label>
 	<div id="LeftRow">
-
+		<header>
+			<a href="/">
+				<h1 class="logo hide-text">Gothic Archive</h1>
+			</a>
+		</header>
+		<input type="checkbox" id="menu-toggle">
+		<label for="menu-toggle">
+			<span class="menu-icon">&#8801;</span>
+			Menu
+		</label>
         {% include menu.html %}
 		
 	</div>
