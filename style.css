@@ -413,5 +413,8 @@ article .edgar {
 
 .anniversary {
   padding-left: 1em;
-  color: #008d8c;
+}
+
+.anniversary a:link { 
+  color:#008d8c; 
 }
