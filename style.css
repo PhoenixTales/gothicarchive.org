@@ -415,6 +415,7 @@ article .edgar {
   padding-left: 1em;
 }
 
-.anniversary a:link { 
-  color:#008d8c; 
-}
+.anniversary a:link { color:#c1784a; }
+.anniversary a:visited { color: #ac876d; }
+.anniversary a:active { color: #505a53; }
+.anniversary a:hover { color: #e4d7cc; }
