@@ -395,11 +395,7 @@ article img {
 }
 
 article ul {
-  border: solid 1px #ac876d;
-  list-style: none;
-  padding: 1.5em;
-  margin: 2em 0 2em;
-  font-size: 1em;
+  padding-left: 0;
 }
 
 article video {
