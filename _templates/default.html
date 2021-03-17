@@ -1,14 +1,15 @@
+{% include relBase.html %}
 <!doctype html>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link href="/style.css" rel="stylesheet" />
+<link href="{{ relBase }}/style.css" rel="stylesheet" />
 <title>{{page.title}} | {{site.title}}</title>
-<link rel="icon" type="image/x-icon" href="/archive.ico" />
+<link rel="icon" type="image/x-icon" href="{{ relBase }}/archive.ico" />
 
 <main>
 	<div id="LeftRow">
 		<header>
-			<a href="/">
+			<a href="{{ relBase }}/">
 				<h1 class="logo hide-text">Gothic Archive</h1>
 			</a>
 		</header>
