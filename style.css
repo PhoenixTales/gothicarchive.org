@@ -419,3 +419,7 @@ article .edgar {
 .anniversary a:visited { color: #ac876d; }
 .anniversary a:active { color: #505a53; }
 .anniversary a:hover { color: #e4d7cc; }
+
+audio {
+  margin: 1em auto 1em;
+}
