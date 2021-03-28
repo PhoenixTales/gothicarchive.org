@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  jekyll:
+  github-pages:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
