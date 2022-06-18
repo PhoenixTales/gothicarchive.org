@@ -2,7 +2,7 @@
 
 ++++++++++++
 Author: Mike Hoge
-digitised by flosha
+transcript by flosha
 ++++++++++++
 
 
